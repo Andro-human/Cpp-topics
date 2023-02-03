@@ -1,0 +1,17 @@
+There are three types of inheritance 
+1) Public - public - public
+		protected - protected
+		private - not accessible
+
+2) Protected - public - protected
+		   protected - protected
+		   private - not accessible
+
+3) Private - public - private
+		 protected - private
+		 private - not accessible 
+
+
+NOTE - A friend has access to all the attributes of the class
+
+NOTE - Private class are always inherited. They are just not accessible

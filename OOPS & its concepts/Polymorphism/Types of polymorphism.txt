@@ -1,0 +1,6 @@
+There are 2 types of Polymorphism
+
+Compile-time - 1) Function overloading        (Also called Static binding)
+		   2) Operator Overloading
+
+Run-time - 1) Function Overriding 		    (Also called Dynamic binding)

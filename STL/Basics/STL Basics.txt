@@ -1,0 +1,68 @@
+Elements of the STL
+
+• Containers
+  Collections of objects or primitive types
+  (array, vector, deque, stack, set, map, etc.)
+
+• Algorithms
+  Functions for processing sequences of elements from containers
+  (find , max , count , accumulate , sort , etc.)
+
+•Iterators
+ Generate sequences of element from containers
+ (forward , reverse , by value , by reference , constant , etc.)
+
+
+Algorithms -
+
+Must include <algorithm>
+
+•sort(v.begin(), v.end());  (V can be just about any stl container) // Sorts the elements
+
+•reverse (v.begin(), v.end());  (Reverse the order of elements in the container)
+
+•accumulate (v.begin(), v.end(), 0);  (gives the sum of all the values in the range) // include <numeric>
+
+•find (vec.begin(), vec.end(), 3);    (locates the first occurrence of an element in a container)
+						  (returns an iterator pointing to the locating element or end())
+
+•for_each - algorithm applies a function to each element in the iterator sequence
+   Function must be provided to the algorithm as :
+   •Functor ( function object )
+   •Function pointer
+   •Lambda expression ( C ++ 11 )
+
+•count (counts the number of occurance of an element in a container)
+
+•count if (counts the number of occurance of elements that meets a certain criteria)
+ Uses a predicate lambda   (a lambda which returns a boolean value (true of false))
+
+•replace (replaces the occurances of elements in a container)
+
+•all_of  (It checks for a given property on every element and returns true if each element in range satisfies specified property)
+
+•transform (transform elements in a container)
+
+•min_element (arr.begin(), arr.end());  (returns an iterator to the minimum element)
+
+•max_element (arr.begin(), arr.end());  (returns an iterator to the maximum element)
+
+•adjacent_fin(arr.begin(),arr.end())    (returns an iterator to the first occurance of 2 adjacent values
+
+
+
+Container elements -
+
+What types of elements can we store in containers ?
+
+• A copy of the element will be stored in the container
+  All primitives OK
+
+• Element should be
+  Copyable and assignable ( copy constructor / copy assignment )
+  Moveable for efficiency ( move Constructor / move Assignment )
+
+•Ordered associative containers must be able to compare elements
+   operator < , operator ==
+
+

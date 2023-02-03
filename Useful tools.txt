@@ -1,0 +1,11 @@
+cout << boolalpha - converts boolean 1/0 to true/false (part of the std library)
+
+getline (cin , VARIABLE_NAME) - Takes whole line as input on a string (part of <string> library)
+
+cout.precision(n) - used to output n digits of a number
+
+cout << fixed - used to write floating-point values 
+
+sort (arr, arr+n, greater<int>) - used to sort an array of n size (part of <bits/stdc++.h> library)
+
+static_cast<type>

@@ -1,0 +1,13 @@
+To use smart pointers always use 
+#include <memory>
+
+C++ Smart Pointers
+  * Unique pointers (unique_ptr)
+  * Shared pointers (shared_ptr)
+  * Weak pointers (weak_ptr)
+  * Auto pointers (auto_ptr) 	   Deprecated (not used anymore)
+
+Syntax
+smart_pointer<some_class>ptr =
+
+NOTE - You don't need to delete the smart pointer after using it

@@ -1,0 +1,5 @@
+Syntax
+
+* throw (throws and exception)
+* try (code that may throw an exception)
+* catch(Exception_type ex)   (code to handle the exception)

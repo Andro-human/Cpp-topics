@@ -1,0 +1,4 @@
+Integer overflow ( Data can be too big to store in int type ex 10^9)
+
+Time complexity (if the size of the input data is more than 10^9 than O(n^2) will not work)
+
